@@ -17,7 +17,12 @@ export default function App() {
         <CartProvider>
           <NavigationContainer>
             <StatusBar style="light" />
-            <Stack.Navigator screenOptions={{ headerShown: false }}>
+            <Stack.Navigator 
+              screenOptions={{ 
+                headerShown: false,
+                cardStyle: { backgroundColor: '#1a1a1a' }
+              }}
+            >
               <Stack.Screen name="Login" component={LoginScreen} />
               <Stack.Screen name="Main" component={MainTabNavigator} />
             </Stack.Navigator>
