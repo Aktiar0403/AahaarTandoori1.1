@@ -1,7 +1,0 @@
-{
-  "buildCommand": "expo build:web",
-  "outputDirectory": "web-build",
-  "devCommand": "expo start --web",
-  "cleanUrls": true,
-  "framework": "react"
-}
