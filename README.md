@@ -21,7 +21,7 @@ A premium boutique React Native mobile application for Aahaar Tandoori Restauran
 
 1. Clone the repository
 2. Install dependencies: `npm install`
-3. Start the project: `npm start`
+3. Start o the project: `npm start`
 
 ## Testing Credentials
 
